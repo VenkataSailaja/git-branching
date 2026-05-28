@@ -8,5 +8,5 @@ for reservation in response['Reservations']:
     for instance in reservation['Instances']:
         print("Instance ID:", instance['InstanceId'])
         print("State:", instance['State']['Name'])
-        print("Instance Type:", instance['InstanceType'])
+        print("Instance Type", instance['InstanceType'])
         print("-" * 30)
