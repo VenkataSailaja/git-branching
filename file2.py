@@ -9,4 +9,4 @@ for reservation in response['Reservations']:
         print("Instance ID:", instance['InstanceId'])
         print("State:", instance['State']['Name'])
         print("Instance Type:", instance['InstanceType'])
-        print("-" * 50)
+        print("-" * 30)
